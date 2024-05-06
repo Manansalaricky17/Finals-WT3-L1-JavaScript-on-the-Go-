@@ -1,0 +1,43 @@
+const role = "Department Head";
+const password = "SIESD3ptH34d";
+
+
+if (role === "Department Head") {
+  switch (password) {
+    case "SIESD3ptH34d":
+      console.log("Welcome, Department Head!");
+      break;
+    default:
+      console.error("Incorrect password for Department Head!");
+      break;
+  }
+} else if (role === "Faculty") {
+  switch (password) {
+    case "SiEsF4cu1ty":
+      console.log("Welcome, Faculty!");
+      break;
+    default:
+      console.error("Incorrect password for Faculty!");
+      break;
+  }
+} else if (role === "Student Officer") {
+  switch (password) {
+    case "#CCSOAko":
+      console.log("Welcome, Student Officer!");
+      break;
+    default:
+      console.error("Incorrect password for Student Officer!");
+      break;
+  }
+} else if (role === "Student") {
+  switch (password) {
+    case "3SapatNa!":
+      console.log("Welcome, Student!");
+      break;
+    default:
+      console.error("Incorrect password for Student!");
+      break;
+  }
+} else {
+  console.warning("Invalid role!");
+}
